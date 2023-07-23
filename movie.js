@@ -1,4 +1,4 @@
-const url = new URL(location.href); 
+const url = new URL(location.href);
 const movieId = url.searchParams.get("id")
 const movieTitle = url.searchParams.get("title")
 
@@ -68,7 +68,7 @@ function editReview(id, review, user) {
               <p><strong>User: </strong>
                 <input type="text" id="${userInputId}" value="${user}">
               </p>
-              <p><a href="#" onclick="saveReview('${reviewInputId}', '${userInputId}', '${id}',)">&#x1F58A</a>
+              <p><a href="#" onclick="saveReview('${reviewInputId}', '${userInputId}', '${id}')">&#x1F58A</a>
               </p>
   
   `

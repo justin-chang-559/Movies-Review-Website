@@ -1,5 +1,5 @@
-import app from "./server.mjs";
-import mongodb from "mongodb";
+import app from "./server.js";
+import * as mongodb from "mongodb";
 import ReviewsDAO from "./dao/reviewsDAO.mjs"
 import dotenv from 'dotenv';
 dotenv.config();

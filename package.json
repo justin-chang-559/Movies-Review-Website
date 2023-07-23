@@ -2,10 +2,10 @@
   "name": "movies-review-website",
   "version": "1.0.0",
   "description": "This is a personal project that uses html, css, and mongoDB to create a website wehre users can leave reviews of movies.",
-  "main": "movie.js",
+  "main": "./MoviesDB/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon ./MoviesDB/server.js"
   },
   "author": "",
   "license": "ISC",
